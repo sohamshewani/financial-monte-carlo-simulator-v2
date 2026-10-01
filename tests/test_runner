@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Compile the project
+make
+
+# Run the unit tests
+make check
+
+# Run the integration tests
+make test
